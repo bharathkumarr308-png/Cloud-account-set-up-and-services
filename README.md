@@ -1,71 +1,152 @@
-# Lab 1 - Introduction to AWS Identity and Access Management (IAM)
+EXP NO - 1 : Cloud-account-set-up-and-services
+Aim:
+To create an cloud account in AWS and to explore all of its services.
 
-## Title
-Introduction to AWS Identity and Access Management (IAM)
+Procedure
+Step 1: Go to the AWS Website
+• Visit https://aws.amazon.com
+
+• Click “Create an AWS Account” in the top right corner.
+
+Step 2: Enter Account Information
+• Email address – Use a valid email you have access to.
+
+• Password – Create a strong password.
+
+• AWS account name – This is the name you want to associate with your AWS account (e.g., your name or company name).
+
+Step 3: Choose Account Type
+• Personal or Professional – Select based on how you plan to use AWS.
+
+• Fill in your contact information (name, address, phone number).
+
+Step 4: Enter Payment Information
+• Provide credit/debit card details.
+
+Note: You won’t be charged immediately. AWS offers a Free Tier, but entering card details is mandatory.
+
+Step 5: Verify Your Identity
+• Enter your phone number.
+
+• AWS will send a verification code via call or text.
+
+• Enter the code to confirm your identity.
+
+Step 6: Choose a Support Plan
+Choose one of the following: • Basic Support (Free)
+
+• Developer Support
+
+• Business Support
+
+• Enterprise Support
+
+For most beginners, select Basic Support.
+
+Step 7: Complete the Sign-Up
+• After reviewing all the details, click "Sign Up".
+
+• You’ll receive a confirmation email once your account is activated (usually within a few minutes).
+
+Step 8: Sign In to AWS Console
+• Go to https://console.aws.amazon.com
+
+• Log in using your email and password to start using AWS services.
+
+Create a user with administrative access
+After you sign up for an AWS account, secure your AWS account root user, enable AWS IAM Identity Center, and create an administrative user so that you don't use the root user for everyday tasks.
+
+Secure your AWS account root user
+Sign in to the AWS Management Console (https://console.aws.amazon.com) as the account owner by choosing Root user and entering your AWS account email address. On the next page, enter your password. Turn on multi-factor authentication (MFA) for your root user.
+
+Create user with administrative access
+Enable IAM Identity Center. In IAM Identity Center, grant administrative access to a user.
+
+Sign in as the user with administrative access
+To sign in with your IAM Identity Center user, use the sign-in URL that was sent to your email address when you created the IAM Identity Center user.
+
+Services Overview:
+• Explore all the available services in AWS platform.
+
+Output:
+EXP NO - 1 : Cloud-account-set-up-and-services
+
+Aim:
+To create an cloud account in AWS and to explore all of its services.
+
+Procedure
+Step 1: Go to the AWS Website
+• Visit https://aws.amazon.com
+
+• Click “Create an AWS Account” in the top right corner.
+
+Step 2: Enter Account Information
+• Email address – Use a valid email you have access to.
+
+• Password – Create a strong password.
+
+• AWS account name – This is the name you want to associate with your AWS account (e.g., your name or company name).
+
+Step 3: Choose Account Type
+• Personal or Professional – Select based on how you plan to use AWS.
+
+• Fill in your contact information (name, address, phone number).
+
+Step 4: Enter Payment Information
+• Provide credit/debit card details.
+
+Note: You won’t be charged immediately. AWS offers a Free Tier, but entering card details is mandatory.
+
+Step 5: Verify Your Identity
+• Enter your phone number.
+
+• AWS will send a verification code via call or text.
+
+• Enter the code to confirm your identity.
+
+Step 6: Choose a Support Plan
+Choose one of the following: • Basic Support (Free)
+
+• Developer Support
+
+• Business Support
+
+• Enterprise Support
+
+For most beginners, select Basic Support.
+
+Step 7: Complete the Sign-Up
+• After reviewing all the details, click "Sign Up".
+
+• You’ll receive a confirmation email once your account is activated (usually within a few minutes).
+
+Step 8: Sign In to AWS Console
+• Go to https://console.aws.amazon.com
+
+• Log in using your email and password to start using AWS services.
+
+Create a user with administrative access
+After you sign up for an AWS account, secure your AWS account root user, enable AWS IAM Identity Center, and create an administrative user so that you don't use the root user for everyday tasks.
+
+Secure your AWS account root user
+Sign in to the AWS Management Console (https://console.aws.amazon.com) as the account owner by choosing Root user and entering your AWS account email address. On the next page, enter your password. Turn on multi-factor authentication (MFA) for your root user.
+
+Create user with administrative access
+Enable IAM Identity Center. In IAM Identity Center, grant administrative access to a user.
+
+Sign in as the user with administrative access
+To sign in with your IAM Identity Center user, use the sign-in URL that was sent to your email address when you created the IAM Identity Center user.
+
+Services Overview:
+• Explore all the available services in AWS platform.
+
+Output:
+<img width="1701" height="925" alt="image" src="https://github.com/user-attachments/assets/871633e1-5f97-4e05-918c-5c8dbc76eb64" />
 
 
-## Objective
-The objective of this lab is to understand how AWS Identity and Access Management (IAM) controls authentication and authorization in AWS. The lab focuses on exploring IAM users and groups, analyzing attached policies, assigning users to appropriate groups based on organizational roles, and validating permissions by testing service access.
+<img width="1694" height="929" alt="image" src="https://github.com/user-attachments/assets/9f010771-f8c7-41d4-a87d-daf4763960b1" />
 
 
-## Prerequisites
-- Basic understanding of cloud computing concepts  
-- AWS Academy Lab access  
-- Web browser with internet connectivity  
-
-
-## Tools Used
-- AWS Management Console  
-- AWS Identity and Access Management (IAM)  
-- Amazon EC2  
-- Amazon S3  
-
-
-## Tasks Performed
-
-### Task 1: Explore IAM Users and Groups
-- Reviewed pre-created IAM users: user-1, user-2, user-3  
-- Explored IAM groups: EC2-Admin, EC2-Support, S3-Support  
-- Inspected managed and inline policies attached to groups  
-**Screenshot:**  
-
-<img width="1522" height="722" alt="image" src="https://github.com/user-attachments/assets/e7d2952a-6c28-4873-98ee-85d5d1f9b6d6" />
-
-
-### Task 2: Add Users to Groups
-- Added user-1 to the S3-Support group  
-- Added user-2 to the EC2-Support group  
-- Added user-3 to the EC2-Admin group  
-**Screenshot:**
-  
-<img width="1919" height="929" alt="image" src="https://github.com/user-attachments/assets/ac9e775e-3082-4eae-842e-00982538d78f" />
-
-### Task 3: Test IAM User Permissions
-- Logged in using IAM sign-in URL  
-- Verified S3 access for user-1  
-- Verified EC2 read-only access for user-2  
-- Verified EC2 administrative access for user-3  
-**Screenshot:**  
-
-<img width="1600" height="762" alt="image" src="https://github.com/user-attachments/assets/91b9cca7-978f-4339-a983-853f3fb031d9" />
-
-
-## Workflow
-1. Accessed IAM console and reviewed users and groups.  
-2. Inspected policy permissions attached to groups.  
-3. Assigned users to groups based on their roles.  
-4. Logged in as each IAM user using the sign-in URL.  
-5. Validated permissions by accessing AWS services.  
-
-
-## Learning Outcomes
-- Understood the role of IAM in AWS security.  
-- Learned how IAM users, groups, and policies interact.  
-- Gained practical experience implementing role-based access control.  
-- Verified permission enforcement through real-time service testing.  
-
-
-## Conclusion
-This lab provided hands-on experience with AWS IAM by demonstrating how organizations manage secure access to cloud resources. Assigning users to groups with predefined policies simplified permission management and ensured role-based access control across AWS services.
-
+Result:
+Thus an account was created in AWS platform and all the services were explored.
 
